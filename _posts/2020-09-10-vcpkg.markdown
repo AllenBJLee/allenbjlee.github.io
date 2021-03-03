@@ -1,0 +1,56 @@
+---
+layout: post
+title:  "vcpkg (Windows Open Source 관리 툴)"
+search: true
+categories: C++
+last_modified_at: 2020-09-10T08:06:00-05:00
+---
+
+vcpkg는 unbuntu의 apt 나 centos 의 yum 과 같은 Microsoft 에서 배포되는 Open Source 라이브러리 관리툴 입니다.
+Windows 에서 Open Source 를 이용할 경우 매번 불편하게 빌드해야 하지만 vcpkg 를 사용하면 직접 빌드할 필요가 없어집니다.
+
+**Git Url:** [https://github.com/microsoft/vcpkg.git](https://github.com/microsoft/vcpkg.git)
+
+Git 을 이용해 clone 하고 빌드하면 간단하게 사용할 수 있습니다.
+
+```bash
+C:\Git>git clone https://github.com/microsoft/vcpkg.git
+Cloning into 'vcpkg'...
+remote: Enumerating objects: 88311, done.
+Receiving objects: 100% (88311/88311), 26.22 MiB | 7.45 MiB/s, done.
+remote: Total 88311 (delta 0), reused 0 (delta 0), pack-reused 88311
+Resolving deltas: 100% (54906/54906), done.
+Updating files: 100% (5401/5401), done.
+
+C:\git>
+```
+
+clone 한 디렉토리로 이동해 빌드 명령(bootstrap-vcpkg.bat) 을 수행해주면 vcpkg 를 사용할 수 있습니다.
+
+```bash
+c:\git\vcpkg> bootstrap-vcpkg.bat
+```
+
+vcpkg.exe 파일이 빌드됐으면 이제 원하는 라이브러리를 다운로드받고 자동으로 빌드까지 진행해 줍니다.
+
+1. 설치하고 싶은 패키지 검색
+ - option name : search
+ - 예를 들어 boost library 를 설치할 수 있는지 검색하고 싶다면 다음과 같이 입력하면 됩니다.
+```bash
+c:\git\vcpkg>vcpkg search boost
+```
+
+2. 설치된 패키지 리스트
+ - option name : list
+ - 이 옵션을 사용하면 설치된 라이브러리 리스트를 알려줍니다.
+```bash
+c:\git\vcpkg>vcpkg list
+```
+
+3. 패키지 설치
+ - option name : install
+ - 이 옵션을 사용하면 라이브러리를 설치할 수 있습니다.
+ - 아래와 같이 입력하면 boost x86,x64 windows static library 를 동시에 다운로드받을 수 있습니다.
+```bash
+c:\git\vcpkg>vcpkg install boost:x86-windows-static boost:x64-windows-static
+```

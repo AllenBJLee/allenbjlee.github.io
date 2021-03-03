@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Google Cloud Platform 시작하기 (계정 생성)"
+search: true
+date: 2020-09-10T08:06:00-05:00
+category: GCP
+---
+
+최근 Cloud 에 관심이 생겨 AWS, AZURE, GOOGLE 등을 확인한 결과 90일 무료인 구글을 확인해보기로 마음먹었다. (그리고 구글이니까...)
+
+우선 계정 생성부터 차례 차례 해보기로 했다.
+
+**구글 클라우드 URL** : [https://cloud.google.com/](https://cloud.google.com/)
+
+처음 접속하면 오른쪽 상단의 '무료로 시작하기' 버튼을 시용해 시작할 수 있다.
+![무료로 시작하기]({{site.url}}/public/img/gcp/create_account/gcp_create_account_01.png)
+
+버튼 클릭 후 '계속'버튼을 눌러 약관에 동의한다.
+![약관 동의]({{site.url}}/public/img/gcp/create_account/gcp_create_account_02.png)
+
+신용카드 결제 화면이 나오는데 자동 방지를 위한 절차이므로 바로 결제되진 않는다.
+![신용카드 입력]({{site.url}}/public/img/gcp/create_account/gcp_create_account_03.png)
+
+신용카드 등록까지 완료했으면 나만의 클라우드 계정이 생성된 것을 확인할 수 있다.
+![GCP Console]({{site.url}}/public/img/gcp/create_account/gcp_create_account_04.png)
