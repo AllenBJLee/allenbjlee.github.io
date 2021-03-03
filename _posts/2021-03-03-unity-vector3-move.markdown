@@ -14,7 +14,8 @@ transform.position = Vector3.MoveTowards( transform.position ,m_vecTarget, 1f );
 #### 02. SmoothDamp - 목표 지점으로 스무스하게 이동 (미끄러지듯 감속 이동)
 ```c#
 Vector3 velo = Vector3.zero;
-transform.position = Vector3.SmoothDamp( transform.position, m_vecTarget, ref velo, 0.3f );
+Vector3 vecTarget = new Vector3( 5, 0.25f, 0 );
+transform.position = Vector3.SmoothDamp( transform.position, vecTarget, ref velo, 0.3f );
 ```
 
 #### 03. Lerp - 선형 보간 이동
