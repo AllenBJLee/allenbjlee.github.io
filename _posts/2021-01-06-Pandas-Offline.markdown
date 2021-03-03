@@ -3,7 +3,7 @@ layout: post
 title:  "Pandas Offline 설치"
 search: true
 categories: DataScience
-last_modified_at: 2021-01-06T08:06:00-05:00
+last_modified_at: 2021-01-06
 ---
 
 **1. Pandas 를 인터넷이 연결되지 않은 상태에서 사용하고 싶을 경우**<br>

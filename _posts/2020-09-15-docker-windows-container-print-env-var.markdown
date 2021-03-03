@@ -3,7 +3,7 @@ layout: post
 title:  "Windows Docker 환경변수 확인"
 search: true
 category: docker
-last_modified_at: 2020-09-15T08:06:00-05:00
+last_modified_at: 2020-09-15
 ---
 
 docker windows container 를 사용하다 보면 docker 내 환경변수 값을 확인할 필요가 있다.

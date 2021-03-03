@@ -3,7 +3,7 @@ layout: post
 title:  "내가 경험한 애자일(3) - 문제 해결하기"
 search: true
 categories: Agile
-last_modified_at: 2020-09-26T08:06:00-05:00
+last_modified_at: 2020-09-26
 ---
 
 **하나씩 해결해보기**<br>

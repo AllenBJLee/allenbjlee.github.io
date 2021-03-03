@@ -3,7 +3,7 @@ layout: post
 title:  "내가 경험한 애자일(2) - 발견되는 문제점들"
 search: true
 categories: Agile
-last_modified_at: 2020-09-25T08:06:00-05:00
+last_modified_at: 2020-09-25
 ---
 
 **그래서 애자일을 시작하게 되었다**<br>

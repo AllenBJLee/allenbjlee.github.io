@@ -3,7 +3,7 @@ layout: post
 title:  "내가 경험한 애자일(1) - 왜 애자일을 시작했을까?"
 search: true
 categories: Agile
-last_modified_at: 2020-09-22T08:06:00-05:00
+last_modified_at: 2020-09-22
 ---
 
 **폭포수 모델의 이해**<br>

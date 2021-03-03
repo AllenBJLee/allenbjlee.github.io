@@ -3,7 +3,7 @@ layout: post
 title:  "vcpkg (Windows Open Source 관리 툴)"
 search: true
 categories: C++
-last_modified_at: 2020-09-10T08:06:00-05:00
+last_modified_at: 2020-09-10
 ---
 
 vcpkg는 unbuntu의 apt 나 centos 의 yum 과 같은 Microsoft 에서 배포되는 Open Source 라이브러리 관리툴 입니다.

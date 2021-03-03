@@ -3,7 +3,7 @@ layout: post
 title:  "Google Cloud Platform 시작하기 (프로젝트 생성 - Ubuntu 16)"
 search: true
 category: GCP
-last_modified_at: 2020-09-14T08:06:00-05:00
+last_modified_at: 2020-09-14
 ---
 
 새로운 프로젝트를 생성하고 Ubuntu 16.04 를 설치해 보도록 한다.

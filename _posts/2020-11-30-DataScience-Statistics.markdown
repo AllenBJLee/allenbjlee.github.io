@@ -3,7 +3,7 @@ layout: post
 title:  "통계학 기초 강의 정리"
 search: true
 categories: DataScience
-last_modified_at: 2020-11-30T08:06:00-05:00
+last_modified_at: 2020-11-30
 ---
 
 **1. 자료의 변수와 종류**<br>
