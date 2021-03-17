@@ -190,7 +190,7 @@ int maxMin(int k, vector<int> arr) {
 Greedy Algorithms 문제들 중 가장 애먹은 문제이다.
 
  - 문자열 A 가 주어지고 A1 = reverse(A), A2 = shuffle(A) 인 상황
- - S == merge( A1, A2 ) 이며, 조건을 만족하는 S 의 사전적 순서 최소값을 찾는 문제
+ - S = merge( A1, A2 ) 이며, 조건을 만족하는 S 의 사전적 순서 최소값을 찾는 문제
  
 여기서 예제로 제시해준 것들은 A1(reverse(A)) 사이에 A2(shuffle(A)) 한 값들이 껴들지 않았다. 그래서 A1 은 온전히 긴 통 문자열로 보존된다고 생각했다.
 
