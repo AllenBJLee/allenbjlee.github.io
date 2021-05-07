@@ -76,5 +76,5 @@ last_modified_at: 2020-09-22
 이런 다수의 문제점들로 인해 애자일 방법론 도임에 대한 실험을 할 수 밖에 없었고 현재는 어느정도 안착된 형태로 애자일을 수행하고 있다.<br>
 
 **연결된 포스트**<br>
-[내가 경험한 애자일(2) - 발견되는 문제점들]({{site.url}}/agile/Agile-Problem/) <br>
-[내가 경험한 애자일(3) - 문제 해결하기]({{site.url}}/agile/Agile-Solution/)
+[내가 경험한 애자일(2) - 발견되는 문제점들]({% post_url 2020-09-25-Agile-Problem %}) <br>
+[내가 경험한 애자일(3) - 문제 해결하기]({% post_url 2020-09-26-Agile-Solution %})
